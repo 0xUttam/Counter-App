@@ -1,0 +1,60 @@
+.box{
+    background-color: #344151;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.heading{
+    color: #0398d4;
+    font-size: medium;
+    text-align: 2px center;
+}
+
+.button-box{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    padding: 4px;
+    border-radius: 0.125rem;
+    font-size-adjust: 25px;
+    color: #344151;
+}
+
+.mbutton{
+    border-radius: 2px;
+    text-align: center;
+    width: 20px;
+    border: #bfbfbf;
+    font-size: 25px; 
+    padding-left: 6px;
+}
+
+.pbutton{
+    border-radius: 2px;
+    text-align: center;
+    width: 20px;
+    border: #bfbfbf;
+    font-size: 25px; 
+    padding: 0;
+}
+
+.count{
+    font-size: bold;
+    gap: 12px;
+    font-size: 25px;
+}
+
+.reset-button{
+    background-color: #0398d4;
+    padding: 2px 10px;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+    font-size: large;
+}
